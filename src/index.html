@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TIC TAC TOE</title>
+  <meta name="description" content="TIC TAC TOE">
+  <meta name="author" content="SitePoint">
+  
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="css/style.scss" />
+
+</head>
+
+<body>
+
+  <div class="content-wrapper">
+    <div class="left-panel">
+      <div class="left-panel-buttons">
+        <a class="buttonGame" id="refreshButton" style="cursor: pointer;">Refresh score</a>
+        <a class="buttonGame" id="newGame" style="cursor: pointer;">New game</a>
+        
+      </div>
+      <div class="left-panel-score">
+        <span>Crosses: <h2 id="crosses"> </span></h1>
+
+        <span>Naughts: <h2 id="naughts"> </span></h1>
+      </div>
+    </div>
+
+    <div class="game-panel">
+      <div id = "00"  class="board">
+        <button id="0" class="square"><p id="000" style="font-size: 200%;"></p></button>
+        <button id="1" class="square"><p id="001" style="font-size: 200%;"></p></button>
+        <button id="2" class="square"><p id="002" style="font-size: 200%;"></p></button>
+        <button id="3" class="square"><p id="003" style="font-size: 200%;"></p></button>
+        <button id="4" class="square"><p id="004" style="font-size: 200%;"></p></button>
+        <button id="5" class="square"><p id="005" style="font-size: 200%;"></p></button>
+        <button id="6" class="square"><p id="006" style="font-size: 200%;"></p></button>
+        <button id="7" class="square"><p id="007" style="font-size: 200%;"></p></button>
+        <button id="8" class="square"><p id="008" style="font-size: 200%;"></p></button>
+      </div>
+    </div>
+
+  </div>
+
+
+    <!-- DETTE SCRIPT INSTANSETTER SPILLET -->
+
+
+  <script type="module" src="./js/startGame.ts"></script>
+
+</body>
+</html>
